@@ -1,0 +1,140 @@
+/* /////////////GIO HANG, CHI TIET DON HANG///////////// */ 
+.giohang {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.chitiet_gio img {
+    width: 100%;
+}
+
+.soluong {
+    width: 40px;
+    height: 35px;
+    text-align: center;
+}
+
+.tongtien {
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #0088ff7e;
+}
+
+.tongtien span {
+    color: #e0052b;
+}
+
+/* CAC NUT TRONG TRANG GIO HANG */
+.btn-update,
+.giohang .btn-dathang,
+.giohang a {
+    border: none;
+    display: block;
+    width: 100%;
+    float: left;
+    color: white;
+    margin: 5px 3px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: #f44336;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+.btn-update:hover,
+.giohang .btn-dathang:hover,
+.giohang a:hover {
+    background-color: #0089ff;
+}
+
+/* MODAL ORDER */
+.modal-order {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.modal-content {
+    background-color: #fff;
+    position: relative;
+    margin: 7%;
+    animation: modalFadeIn ease 0.5s;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-55px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-header {
+    background: #0088ffc2;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.modal-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.modal-input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.dathang {
+    background: #0088ffc2;
+    border: none;
+    width: 100%;
+    color: #fff;
+    padding: 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.dathang:hover {
+    background: #fa4f43da;
+}
+
+.modal-close:hover {
+    color: hsl(4, 100%, 50%);
+    background: hsl(4, 80%, 73%);
+}

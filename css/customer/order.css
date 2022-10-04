@@ -1,0 +1,29 @@
+/* /////////////DON HANG///////////// */
+.donhang {
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+/* NUT TRONG TRANG DON HANG */
+.cacdon a {
+    border: none;
+    display: block;
+    width: 45px;
+    float: left;
+    color: white;
+    margin: 5px 3px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: #f44336;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.cacdon a:hover {
+    background-color: #0089ff;
+}
+
+.cacdon tr td:last-child {
+    width: 70px;
+}
+

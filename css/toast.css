@@ -1,0 +1,45 @@
+#snackbar {
+    /* visibility: hidden; */
+    display: none;
+    margin: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    font-size: 17px;
+    cursor: default;
+    border-left: 5px yellow solid;
+}
+
+#snackbar.show {
+    /* visibility: visible; */
+    display: block;
+    animation: fadein 0.5s, fadeout 0.5s 2s;
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 100px;
+        opacity: 1;
+    }
+
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}

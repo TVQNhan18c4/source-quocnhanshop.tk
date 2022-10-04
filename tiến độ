@@ -1,0 +1,73 @@
+////**** tiến độ ****\\\\
+
+admin:
+- tạo trang thương thương hiệu, sản phẩm, người dùng, đơn hàng, chi tiết sản phẩm (trang tĩnh)
+- hiển thị số lượng của thương hiệu, sản phẩm, người dùng, đơn hàng (4 ô menu)
+- hiển thị bảng thương hiệu, bảng người dùng, bảng sản phẩm, chi tiết sản phẩm, bảng đơn hàng, chi tiết đơn
+- chức năng : 
+  + thêm thương hiệu
+  + xóa thương hiệu
+  + sửa thương hiệu
+  + thêm sản phẩm
+  + xóa sản phẩm
+  + sửa sản phẩm
+  + thêm người dùng
+  + xóa người dùng
+  + sửa người dùng
+  + xác nhận, từ chối đơn hàng (update)
+  + phân trang
+  + tìm kiếm theo tên của thương hiệu, sản phẩm, người dùng, người nhận (đơn hàng)
+  
+custommer:
+- tạo trang  (trang tĩnh)
+- hiển thị danh sách sản phẩm, danh sách thương hiệu (home, thương hiệu->menu)
+- hiển thị thông tin chi tiết sản phẩm (product)
+- hiển thị các sản phẩm tương tự 
+- thêm sản phẩm vào giỏ
+- hiển thị thông tin giỏ hàng
+- xóa sản phẩm trong giỏ
+- update số lượng sp trong giỏ hàng
+- tạo đơn hàng
+- hiển thị đơn hàng
+- hiển thị chi tiết đơn
+- xóa đơn hàng khi ở trạng thái chờ
+- tìm kiếm sản phẩm theo thương hiệu hoặc tên sp
+- phân trang
+
+authent:
+- taọ trang login, register 
+- thực hiện đc login, register(md5 pass)
+- thực hiện logout ở admin và custommer (trang 404 sau khi đã logout muốn quay lại)
+- ko đc để trống các ô (html required)
+
+\\\\**** -------- ****////
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+
+
+////**** tổng kết ****\\\\
+
+- customer : 
+  + đăng ký, đăng nhập, đăng xuất
+  + xem các sản phẩm (home), tìm kiếm sản phẩm theo thương hiệu hoặc theo tên
+  + xem chi tiết sản phẩm
+  + thêm sản phẩm vào giỏ hàng(có sp trong giỏ cập nhật số lượng + 1)
+  + xem giỏ hàng, xóa sản phẩm trong giỏ, cập nhật số lượng sản phẩm trong giỏ(số lượng < 1 --> 1)
+  + đặt hàng
+  + xem các đơn đã đặt, xem chi tiết đơn, xóa đơn(đơn chưa xác nhận hoặc từ chối  )
+-admin:
+  + đăng nhập, đăng xuất
+  + thương hiệu : xem, thêm, xóa, cập nhật (xem danh sách)
+  + sản phẩm : xem, thêm, xóa, xem chi tiết, cập nhật
+  + người dung : xem, thêm, xóa, cập nhật (cẩn thận cập nhật làm thay đổi mật khẩu)
+  + đơn hàng : xem, chi tiết, thay đổi trạng thái đơn
+
+- phần giao diện: làm toast, slide, modal
+
+\\\\**** -------- ****////
+

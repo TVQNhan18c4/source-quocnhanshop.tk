@@ -1,0 +1,61 @@
+@media only screen and (max-width: 767px){
+    .header_top .logo,
+    .search-infor .search,
+    .search-infor .infor {
+        width: 100%;
+        text-align: center;
+    }
+    .search-infor{
+        width: 100%;
+    }
+    .infor a {
+        margin: 3%;
+    }
+    .banner {
+        display: none;
+    }
+    .slider {
+        width: 100%;
+    }
+    .btn_search{
+        display: none;
+    }   
+}
+
+@media only screen and (max-width: 480px) { /* 0 -> 480px */
+    * {
+        font-size: 14px;
+    }
+
+    .products .product {
+        width: 48%;
+    }
+
+    .anhsp,
+    .thongtinsp {
+        width: 100%;
+    }
+
+    .container_sptt .sptt {
+        width: 48%;
+    }
+
+    .giohang .btn-dathang,
+    .giohang a {
+        padding: 5px 0px;
+    }
+    .btn_search{
+        display: none;
+    }   
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 970px){/* 768->970 */
+    .header_top .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .search-infor{
+        width: 100%;
+    }
+}
