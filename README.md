@@ -2,6 +2,6 @@
 
 link website : https://quocnhanshop.tk/
 
-- acc admin:
+- login admin site:
   + Username : admin
   + Password : admin
